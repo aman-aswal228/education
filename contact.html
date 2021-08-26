@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!------------- google font ---------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<!---------------------------- fontawsome cdn -------------------------------------->
+
+<script src="https://kit.fontawesome.com/86617ce6d7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- ---------------------------------Body---------------------------------------- -->
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>Contact Us</h1>
+    </section>    
+
+    <!-- ----------------------------- Contact us ------------------------------>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11789.528986254863!2d-71.1166601!3d42.3770029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5937c65cee2427f0!2sHarvard%20University!5e0!3m2!1sen!2sin!4v1629907827278!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Cambridge, MA</h5>
+                        <p>Unites States</p>
+                    </span>
+                </div>
+                
+            </div>
+            
+            <div class="contact-col">
+                
+             <div>
+                     <i class="fas fa-phone"></i>
+                 <span>
+                     <h5>+01 9874568541</h5>
+                     <p>Monday to Saturday, 10AM to 6PM</p>
+                 </span>
+
+             </div>
+                
+            </div>
+
+            <div class="contact-col">
+                 <div>
+                    <i class="fas fa-envelope-open-text"></i>
+                    <span>
+                        <h5>stanforduniversity@gmail.com</h5>
+                        <p>Email us</p>
+                    </span>
+                 </div>
+                
+            </div>
+
+        </div>
+
+         <div class="comment-box">
+                 <h3>Contact Us</h3>
+
+                 <form class="comment-form">
+                    <input type="text" name="" id="" placeholder="Enter Name">
+                    <input type="email" name="" id="" placeholder="Enter Email">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="your comment...."></textarea>
+                    <button type="submit" class="hero-btn red-btn ">POST COMMENT</button>
+                 </form>
+                 
+             </div>
+        
+    </section>
+        
+    
+ 
+
+
+<!-- ---------------------- Footer ------------------------------------------ -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi repudiandae deserunt te saepe re,<br> minima fugiat pariatur esse repudiandae quas voluptatem eos velit nemo?</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Aman Aswal</p>
+</section>
+
+
+<!-- -----------------Java Script for toggle menu -------------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
